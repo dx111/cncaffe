@@ -56,7 +56,6 @@ RUN echo -e "if [ -f /data/env_caffe.sh ]; then\n./data/env_caffe.sh\nfi" >> ~.b
 
 
 RUN /bin/bash -c "\
-    source ${ENV_SH} \
     && chmod +x ${BUILD_SH} \
     && ${BUILD_SH} \
     && cd /data/caffe/src/caffe/build \
