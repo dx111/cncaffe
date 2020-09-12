@@ -5,7 +5,7 @@ ARG CAFFE_FILE=Cambricon-MLU270-caffe.tar.gz
 ARG ENV_SH=env_caffe.sh
 ARG BUILD_SH=/data/caffe/src/caffe/scripts/build_caffe_mlu270_cambricon_release.sh
 
-ARG FILE_PATH=http://119.3.129.170/public
+ARG FILE_PATH=http://119.3.129.170:9000/public
 
 ADD  ${FILE_PATH}/${NEUWARE_FILE} /data/${NEUWARE_FILE}
 
