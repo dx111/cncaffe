@@ -1,4 +1,4 @@
-FROM python:2.7-slim
+FROM python:3.7-slim
 
 ARG NEUWARE_FILE=neuware-mlu270-1.5.0-1_Debian10_amd64.deb
 ARG CAFFE_FILE=Cambricon-MLU270-caffe.tar.gz
